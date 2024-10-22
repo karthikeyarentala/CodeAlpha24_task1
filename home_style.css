@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.imagegallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 20px; 
+}
+
+.imagegallery div {
+    flex: 0 1 calc(50% - 10px); 
+    margin-bottom: 20px; 
+}
+
+.imagegallery img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+}
+
+.img1, .img2, .img3, .img4{
+    border: solid 3px whitesmoke;
+    border-radius: 10px;
+}
